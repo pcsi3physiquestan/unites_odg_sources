@@ -32,7 +32,7 @@ On peut distinguer deux types d'ordres deux grandeurs à connaître:
 | Célérité de la lumière | $299 792 458 \rm{m.s^{-1}}$ |
 | Célérité de la lumière | $299 792 458 \rm{m.s^{-1}}$ |
 | Perméabilité magnétique du vide | $4\pi \times 10^{-7} \rm{kg.m.A^{-2}.s^{-2}}$ |
-| Permittivité diélectrique du vide | $\frac{1}{\mu_0\cdot c^2} = 8,85 \times 10^{-12 |rm{A^2.s^4.kg^{-1}.m^{-3}}$ |
+| Permittivité diélectrique du vide | $\frac{1}{\mu_0\cdot c^2} = 8,85 \times 10^{-12} \rm{A^2.s^4.kg^{-1}.m^{-3}}$ |
 | Constante de Planck | $6,63 \times 10^{-34} \rm{kg.m^2.s^{-1}}$ |
 | Charge élémentaire | $\sqrt{\frac{2h\alpha}{\mu_0 c}} = 1,60 \times 10^{-19} \rm{A.s}$ |
 | Constante gravitationnelle | $6,67 \times 10^{-11} \rm{m^3.kg^{-1}.s^{-2}}$ |
