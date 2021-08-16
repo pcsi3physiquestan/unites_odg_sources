@@ -89,7 +89,7 @@ _Pour répondre à cette question, il faut utiliser des relations physiques conn
 >
 > avec $\overrightarrow{p} = m\overrightarrow{v}$ la quantité de mouvement dont l'unité est donc des $kg.m.s^{-1}$.
 >
->La dérivée par rapport au temps revient, d'un point dimensionnelle à diviser par le temps. Il vient comme unité __$kg.m.s^{-2__$}
+>La dérivée par rapport au temps revient, d'un point dimensionnelle à diviser par le temps. Il vient comme unité $kg.m.s^{-2$}
 ````
 
 ````{dropdown} A retenir
@@ -102,7 +102,7 @@ Exprimer l'unité Joule (J) en fonction des unités fondamentales
 ````
 
 ````{dropdown} Correction
-On peut utiliser l'expression de l'énergie cinétique $E_c = \frac{1}{2} m v^2$ il vient comme unité __$kg.m^2.s^{-2__$}
+On peut utiliser l'expression de l'énergie cinétique $E_c = \frac{1}{2} m v^2$ il vient comme unité $kg.m^2.s^{-2$}
 ````
 
 ````{admonition} Exercice 
@@ -111,7 +111,7 @@ Exprimer l'unité Coulomb (C) en fonction des unités fondamentales
 ````
 
 ````{dropdown} Correction
-Le Coulomb est l'unité de charge électrique. L'intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s'exprime comme __$A.s^{-1__$}
+Le Coulomb est l'unité de charge électrique. L'intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s'exprime comme $A.s^{-1$}
 ````
 
 # Homogénéité et analyse dimensionnelle
@@ -150,7 +150,7 @@ Quelles sont parmi les expressions ci-dessous, celles qui sont homogènes ? Vous
 ### Principe général de l'analyse dimensionnelle
 ````{admonition} Fondamental : 
 :class: important
-Les unités fondamentales sont __indépendantes__ et ne peuvent donc pas s'exprimer les unes en fonction des autres. Cela signifie que si l'on exprime chaque expressions d'une formules en fonction des unités fondamentales,__ les puissances de celles-ci doivent être égales.__ Cette propriété permet de déterminer une formule possible pour certaines problèmes.
+Les unités fondamentales sont __indépendantes__ et ne peuvent donc pas s'exprimer les unes en fonction des autres. Cela signifie que si l'on exprime chaque expressions d'une formules en fonction des unités fondamentales, __les puissances de celles-ci doivent être égales.__ Cette propriété permet de déterminer une formule possible pour certaines problèmes.
 ````
 
 ```{dropdown} Remarque
@@ -182,6 +182,7 @@ Déterminer les exposants $\alpha, \beta, \gamma$ et $\zeta$.
 \beta - 3 \gamma + \zeta &= 2\\
 -\gamma &= 1\\
 \end{cases}
+$$
 >	
 >On obtient un système d'équation qu'il faut résoudre. Il vient assez facilement :
 >
@@ -192,6 +193,7 @@ Déterminer les exposants $\alpha, \beta, \gamma$ et $\zeta$.
 \zeta &= 2 \\
 \beta &= -3 \\
 \end{cases}
+$$
 >
 >Il vient la formule :
 >$$P = k \frac{q^2 a^2}{\epsilon_0 c^3}$$

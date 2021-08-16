@@ -18,7 +18,7 @@ kernelspec:
 ````{admonition} Objectifs
 :class: tip
 * Savoir exprimer l'unité d'une grandeur donnée en fonction des unités fondamentales du systèmes SI
-* Savoir reconnaître \textbf{rapidement} le caractère homogène d'une expression mathématique.
+* Savoir reconnaître __rapidement__ le caractère homogène d'une expression mathématique.
 * Savoir déterminer une formule correcte en utilisant les dimensions des différentes grandeurs
 * Connaître les valeurs/ordres de grandeurs des constantes fondamentales
 ````
