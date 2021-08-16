@@ -57,9 +57,6 @@ Le système d'unités internationales est le système d'unité retenus par la Co
 
 ````{admonition} Exemples d'unités fondamentales
 :class: note
-
-	\begin{center}
-		\begin{tabular}{ccc}
 | Grandeur | Unités | Symbole |
 | :------- | --:--  | ------: |
 | Fréquence | Hertz | Hz |
