@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ordres de grandeur en physique &#8212; Unités et ordre de grandeur</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="canonical" href="https://pcsi3physiquestan.github.io/unites_odg/notebook/odg.html" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Unités" href="unites.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Unités et ordre de grandeur</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unites_odg.html">
+   Unités et ordre de grandeur
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="unites.html">
+   Unités
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Ordres de grandeur en physique
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="https://www.cedriclacpatia.fr">Site de la classe</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="../_sources/notebook/odg.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebook/odg.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/odg.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#constantes-fondamentales">
+   Constantes fondamentales
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="ordres-de-grandeur-en-physique">
+<h1>Ordres de grandeur en physique<a class="headerlink" href="#ordres-de-grandeur-en-physique" title="Permalink to this headline">¶</a></h1>
+<p>Les ordres de grandeurs sont cruciaux en physique. Toute grandeur physique possède, dans un cadre théorique donné une gamme de valeur possible. Il est important d’avoir une idée des valeurs acceptables pour savoir si un résultat numérique qu’on a calculé n’est pas obligatoirement faux ou si un résultat numérique est en accord avec les hypothèses que l’on a faite.</p>
+<p>On peut distinguer deux types d’ordres deux grandeurs à connaître:</p>
+<ul class="simple">
+<li><p><strong>Les constantes fondamentales:</strong> elle sont souvent en relation avec les limites d’un cadre théorique (la vitesse de la lumière par exemple). Il est important de connaître au moins le premier chiffre et la puissance de dix (en écriture scientifique). Pour les plus courante, il est vivement conseillé de connaître aussi le second chiffre.</p></li>
+<li><p><strong>Les grandeurs courantes:</strong> connaître l’ordre de grandeur de la vitesse d’une voiture, de la vitesse de la Terre autour du Soleil…  ou au moins savoir les retrouver rapidement (comme la distance Terre-Soleil) est important pour pouvoir comparer un résultat numérique à ces ordres de grandeurs. Ici, la connaissance de la puissance de dix correspond suffit (ou d’un intervalle de puissance de dix).</p></li>
+</ul>
+<div class="section" id="constantes-fondamentales">
+<h2>Constantes fondamentales<a class="headerlink" href="#constantes-fondamentales" title="Permalink to this headline">¶</a></h2>
+<div class="tip admonition">
+<p class="admonition-title">Définition : Constantes fondamentales</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p>Constante</p></th>
+<th class="text-align:right head"><p>Valeur</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p>Célérité de la lumière</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(299 792 458 \rm{m.s^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Célérité de la lumière</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(299 792 458 \rm{m.s^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Perméabilité magnétique du vide</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(4\pi \times 10^{-7} \rm{kg.m.A^{-2}.s^{-2}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Permittivité diélectrique du vide</p></td>
+<td class="text-align:right"><p>$\frac{1}{\mu_0\cdot c^2} = 8,85 \times 10^{-12</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Constante de Planck</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,63 \times 10^{-34} \rm{kg.m^2.s^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Charge élémentaire</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\sqrt{\frac{2h\alpha}{\mu_0 c}} = 1,60 \times 10^{-19} \rm{A.s}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Constante gravitationnelle</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,67 \times 10^{-11} \rm{m^3.kg^{-1}.s^{-2}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Unité de masse atomique</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,66 \times 10^{-27} \rm{kg}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Nombre d’Avogadro</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,02 \times 10^{23} \rm{mol^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Constante de Boltzmann</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\frac{R}{N_A}	1,38 \times 10^{-23} \rm{J.K^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Température du point triple de l’eau</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(273,16 \rm{K}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Pression standard de l’atmosphère</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(101 325 \rm{Pa}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Constante des gaz parfaits</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(8,314 \rm{J.K^{-1}.mol^{-1}}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Rayon de Bohr</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\frac{h}{2 \pi m_\mathrm{e} c \alpha} = 5,29 \times 10^{-11} \rm{m}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Magnéton de Bohr</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(9,27 \times 10^{-24} \rm{A.m^2}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Masse du proton</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,67 \times 10^{-27} \rm{kg}\)</span></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Masse du neutron</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,67 \times 10^{-27} \rm{kg}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Masse de l’électron</p></td>
+<td class="text-align:right"><p><span class="math notranslate nohighlight">\(9,11 \times 10^{-31} \rm{kg}\)</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebook"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="unites.html" title="previous page">Unités</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By C. Lacpatia<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
