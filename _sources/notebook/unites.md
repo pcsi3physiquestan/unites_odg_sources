@@ -58,7 +58,7 @@ Le système d'unités internationales est le système d'unité retenus par la Co
 ````{admonition} Exemples d'unités fondamentales
 :class: note
 | Grandeur | Unités | Symbole |
-| :------- | --:--  | ------: |
+| :- | -:-  | -: |
 | Fréquence | Hertz | Hz |
 | Force | Newton | N |
 | Pression | Pascal | Pa |
@@ -196,5 +196,6 @@ $$
 $$
 >
 >Il vient la formule :
+>
 >$$P = k \frac{q^2 a^2}{\epsilon_0 c^3}$$
 ````
