@@ -31,8 +31,7 @@ Les unités qu'on définit ainsi sont appelées les unités fondamentales. On pe
 Les unités fondamentales (et les autres) sont définies lors de Conférences Générales des Poids et Mesures (CGPM).
 
 
-````{admonition} Fondamental : Les 7 unités fondamentales
-:class: important
+````{important} __Fondamental : Les 7 unités fondamentales__
 
 * Unité de temps: la seconde (s)
 * Unité de longueur: le mètre (m)
@@ -148,8 +147,7 @@ Quelles sont parmi les expressions ci-dessous, celles qui sont homogènes ? Vous
 ## Analyse dimensionnelle
 
 ### Principe général de l'analyse dimensionnelle
-````{admonition} Fondamental : 
-:class: important
+````{important} __Fondamental : __
 Les unités fondamentales sont __indépendantes__ et ne peuvent donc pas s'exprimer les unes en fonction des autres. Cela signifie que si l'on exprime chaque expressions d'une formules en fonction des unités fondamentales, __les puissances de celles-ci doivent être égales.__ Cette propriété permet de déterminer une formule possible pour certaines problèmes.
 ````
 
@@ -188,8 +186,7 @@ $$
 >
 >$$\begin{cases}
 \gamma &= -1 \\
-\alpha &=- 2 \\
-\gamma &= 2 \\
+\alpha &= 2 \\
 \zeta &= 2 \\
 \beta &= -3 \\
 \end{cases}

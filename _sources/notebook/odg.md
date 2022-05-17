@@ -25,8 +25,7 @@ On peut distinguer deux types d'ordres deux grandeurs à connaître:
 
 ## Constantes fondamentales
 
-````{admonition} Définition : Constantes fondamentales
-:class: tip
+````{important} __Définition : Constantes fondamentales__
 | Constante | Valeur |
 | :-|-:|
 | Célérité de la lumière | $299 792 458 \rm{m.s^{-1}}$ |
