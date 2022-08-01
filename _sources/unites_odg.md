@@ -15,7 +15,7 @@ kernelspec:
 ---
 # Unités et ordre de grandeur
 
-````{admonition} Objectifs
+````{admonition} Compétences
 :class: tip
 * Savoir exprimer l'unité d'une grandeur donnée en fonction des unités fondamentales du systèmes SI
 * Savoir reconnaître __rapidement__ le caractère homogène d'une expression mathématique.

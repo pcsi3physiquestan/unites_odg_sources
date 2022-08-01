@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unités &#8212; Unités et ordre de grandeur</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet" />
-  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -31,26 +31,26 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="canonical" href="https://pcsi3physiquestan.github.io/unites_odg/notebook/unites.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -58,7 +58,10 @@
     <link rel="next" title="Ordres de grandeur en physique" href="odg.html" />
     <link rel="prev" title="Unités et ordre de grandeur" href="../unites_odg.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -76,13 +79,14 @@
     <a class="navbar-brand text-wrap" href="../index.html">
       
       
+      
       <h1 class="site-logo" id="site-title">Unités et ordre de grandeur</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -100,6 +104,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="odg.html">
    Ordres de grandeur en physique
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="unites_meth.html">
+   Exemples
   </a>
  </li>
 </ul>
@@ -191,63 +200,39 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Unités
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#unites-fondamentales">
+   Unités fondamentales
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#unites-fondamentales">
-     Unités fondamentales
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#unites-derivees-presentation">
-     Unités dérivées - Présentation
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#methode-expression-des-unites-derivees">
-     Méthode : Expression des unités dérivées.
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#unites-derivees">
+   Unités dérivées
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#homogeneite-et-analyse-dimensionnelle">
+   Homogénéité et analyse dimensionnelle
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#homogeneite-des-relations-physiques">
+     Homogénéité des relations physiques
     </a>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#homogeneite-et-analyse-dimensionnelle">
-   Homogénéité et analyse dimensionnelle
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analyse-dimensionnelle">
+   Analyse dimensionnelle
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#homogeneite-des-relations-physiques">
-     Homogénéité des relations physiques
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#principe-general-de-l-analyse-dimensionnelle">
+     Principe général de l’analyse dimensionnelle
     </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#methode-verification-rapide-de-l-homogeneite-des-expressions">
-       Méthode : Vérification rapide de l’homogénéité des expressions.
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#analyse-dimensionnelle">
-     Analyse dimensionnelle
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#principe-general-de-l-analyse-dimensionnelle">
-       Principe général de l’analyse dimensionnelle
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#methode-analyse-dimensionnelle">
-       Méthode : Analyse dimensionnelle
-      </a>
-     </li>
-    </ul>
    </li>
   </ul>
  </li>
@@ -262,11 +247,16 @@
         
               <div>
                 
-  <div class="section" id="unites">
+  <div class="tex2jax_ignore mathjax_ignore section" id="unites">
 <h1>Unités<a class="headerlink" href="#unites" title="Permalink to this headline">¶</a></h1>
+<div class="topic">
+<p class="topic-title first">Introduction</p>
 <p>Toute la physique s’exprime aujourd’hui de manière quantitative au moyen d’équations, de constantes…  Pour pouvoir exprimer de manière “universelle” les données obtenues dans le développement d’un cadre théorique ou lors d’une expérience, il est important de définir un système d’unités cohérent et exhaustif permettant de donner une mesure à toute grandeur physique sans  contradiction entre les différentes définitions.</p>
+</div>
 <div class="section" id="unites-fondamentales">
 <h2>Unités fondamentales<a class="headerlink" href="#unites-fondamentales" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">Principe</p>
 <p>Un certain nombre d’unités «de base» ou «fondamentales» doivent être définies à partir:</p>
 <ul class="simple">
 <li><p>soit d’un rapport à des constantes fondamentales ou des phénomènes physiques bien particuliers que décrivent très bien certains cadres théoriques</p></li>
@@ -274,9 +264,10 @@
 </ul>
 <p>Les unités qu’on définit ainsi sont appelées les unités fondamentales. On peut alors définir un certain nombre d’unités secondaires qui ne font que dériver des unités fondamentales: on ne les obtient pas directement lors d’une expérience.</p>
 <p>Les unités fondamentales (et les autres) sont définies lors de Conférences Générales des Poids et Mesures (CGPM).</p>
+</div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p><strong>Fondamental : Les 7 unités fondamentales</strong></p>
+<p><strong>Les 7 unités fondamentales</strong></p>
 <ul class="simple">
 <li><p>Unité de temps: la seconde (s)</p></li>
 <li><p>Unité de longueur: le mètre (m)</p></li>
@@ -287,25 +278,20 @@
 <li><p>Unité d’intensité lumineuse: le candela (cd)</p></li>
 </ul>
 </div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Remarque<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">Ces unités sont définies à partir:</p>
-<ul class="simple">
-<li><p class="card-text">soit d’un rapport à des constantes fondamentales ou des phénomènes physiques bien particuliers que décrivent très bien certains cadres théoriques</p></li>
-<li><p class="card-text">soit au moyen d’un objet-étalon définissant la valeur 1 d’une unité données.</p></li>
-</ul>
 </div>
-</details></div>
-<div class="section" id="unites-derivees-presentation">
-<h2>Unités dérivées - Présentation<a class="headerlink" href="#unites-derivees-presentation" title="Permalink to this headline">¶</a></h2>
-<p>Le système d’unités internationales est le système d’unité retenus par la Conférence Générale des Poids et Mesures pour quantifier toutes les grandeurs physiques mesurables. Il compte 7 unités fondamentales (citées précédemment) auxquelles s’ajoutent un certain nombre d’unités dérivées permettant de clarifier le écritures.</p>
+<div class="section" id="unites-derivees">
+<h2>Unités dérivées<a class="headerlink" href="#unites-derivees" title="Permalink to this headline">¶</a></h2>
+<div class="topic">
+<p class="topic-title first">Introduction</p>
+<p>Le système d’unités internationales (SI) est le système d’unité retenus par la Conférence Générale des Poids et Mesures pour quantifier toutes les grandeurs physiques mesurables. Il compte 7 unités fondamentales (citées précédemment) auxquelles s’ajoutent un certain nombre d’unités dérivées permettant de clarifier le écritures.</p>
+</div>
+<div class="sidebar">
+<p class="sidebar-title">Remarque</p>
+<p>D’autres unités, qui ne font pas partie du système d’unités internationales existent pour décrire les mêmes grandeurs. Exemple : la pression s’exprime aussi en bar ou en mmHg.</p>
+<p>Certaines puissances ou produits d’unités fondamentales décrivent des grandeurs physiques particulières. La vitesse s’exprime en <span class="math notranslate nohighlight">\(m.s^{-1}\)</span> ou le volume en <span class="math notranslate nohighlight">\(m^3\)</span></p>
+</div>
 <div class="note admonition">
-<p class="admonition-title">Exemples d’unités fondamentales</p>
+<p class="admonition-title">Exemples d’unités dérivées</p>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="text-align:left head"><p>Grandeur</p></th>
@@ -337,78 +323,9 @@ Remarque<div class="summary-down docutils">
 </tbody>
 </table>
 </div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Remarque<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">D’autres unités, qui ne font pas partie du système d’unités internationales existent pour décrire les mêmes grandeurs. Exemple : la pression s’exprime aussi en bar ou en mmHg.</p>
-<p class="card-text">Certaines puissances ou produits d’unités fondamentales décrivent des grandeurs physiques particulières. La vitesse s’exprime en <span class="math notranslate nohighlight">\(m.s^{-1}\)</span> ou le volume en <span class="math notranslate nohighlight">\(m^3\)</span></p>
-</div>
-</details></div>
-<div class="section" id="methode-expression-des-unites-derivees">
-<h2>Méthode : Expression des unités dérivées.<a class="headerlink" href="#methode-expression-des-unites-derivees" title="Permalink to this headline">¶</a></h2>
-<div class="attention admonition">
-<p class="admonition-title">Exercice</p>
-<p>Exprimer l’unité Newton (N) en fonction des unités fondamentales</p>
-</div>
-<p><em>Pour répondre à cette question, il faut utiliser des relations physiques connues reliant une grandeur dont l’unité est celle étudiée aux unités fondamentales.</em></p>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Correction<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<blockquote>
-<div><p class="card-text">Le Newton est l’unité utilisé pour l’intensité des forces. Le principe fondamental de la dynamique s’écrit:</p>
-<div class="math notranslate nohighlight">
-\[\frac{d \overrightarrow{p}}{dt} = \overrightarrow{F}\]</div>
-<p class="card-text">avec <span class="math notranslate nohighlight">\(\overrightarrow{p} = m\overrightarrow{v}\)</span> la quantité de mouvement dont l’unité est donc des <span class="math notranslate nohighlight">\(kg.m.s^{-1}\)</span>.</p>
-<p class="card-text">La dérivée par rapport au temps revient, d’un point dimensionnelle à diviser par le temps. Il vient comme unité <span class="math notranslate nohighlight">\(kg.m.s^{-2}\)</span></p>
-</div></blockquote>
-</div>
-</details><details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-A retenir<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">On retiendra que la dérivée par rapport au temps revient, d’un point dimensionnelle à diviser par le temps. Plus généralement, dériver par rapport à une grandeur X d’unité U revient à diviser l’unité par U.</p>
-</div>
-</details><div class="attention admonition">
-<p class="admonition-title">Exercice</p>
-<p>Exprimer l’unité Joule (J) en fonction des unités fondamentales</p>
-</div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Correction<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">On peut utiliser l’expression de l’énergie cinétique <span class="math notranslate nohighlight">\(E_c = \frac{1}{2} m v^2\)</span> il vient comme unité <span class="math notranslate nohighlight">\(kg.m^2.s^{-2}\)</span></p>
-</div>
-</details><div class="attention admonition">
-<p class="admonition-title">Exercice</p>
-<p>Exprimer l’unité Coulomb (C) en fonction des unités fondamentales</p>
-</div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Correction<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">Le Coulomb est l’unité de charge électrique. L’intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s’exprime comme <span class="math notranslate nohighlight">\(A.s^{-1}\)</span></p>
-</div>
-</details></div>
 </div>
 <div class="section" id="homogeneite-et-analyse-dimensionnelle">
-<h1>Homogénéité et analyse dimensionnelle<a class="headerlink" href="#homogeneite-et-analyse-dimensionnelle" title="Permalink to this headline">¶</a></h1>
+<h2>Homogénéité et analyse dimensionnelle<a class="headerlink" href="#homogeneite-et-analyse-dimensionnelle" title="Permalink to this headline">¶</a></h2>
 <p>Une relation est homogène si tous les termes sommés ont la même unité.<br />
 Tester l’homogénéité d’une relation est extrêmement importante. Cela permet:</p>
 <ul class="simple">
@@ -416,97 +333,24 @@ Tester l’homogénéité d’une relation est extrêmement importante. Cela per
 <li><p>De déterminer si le résultat d’un calcul est possible ou non: tester l’homogénéité d’une expression est une manière simple de vérifier si son calcul est bon.</p></li>
 </ul>
 <div class="section" id="homogeneite-des-relations-physiques">
-<h2>Homogénéité des relations physiques<a class="headerlink" href="#homogeneite-des-relations-physiques" title="Permalink to this headline">¶</a></h2>
+<h3>Homogénéité des relations physiques<a class="headerlink" href="#homogeneite-des-relations-physiques" title="Permalink to this headline">¶</a></h3>
 <p><strong>UN RÉSULTAT NON HOMOGÈNE EST UNE ERREUR GRAVE EN PHYSIQUE.</strong></p>
 <p><em>Pour vérifier l’homogénéité d’une expression, il n’est pas nécessaire (<strong>et même déconseillé</strong>) de revenir aux unités fondamentales. Le but d’une telle vérification est de pouvoir déterminer <strong>rapidement</strong> si un résultat n’est pas complètement faux.</em></p>
-<div class="section" id="methode-verification-rapide-de-l-homogeneite-des-expressions">
-<h3>Méthode : Vérification rapide de l’homogénéité des expressions.<a class="headerlink" href="#methode-verification-rapide-de-l-homogeneite-des-expressions" title="Permalink to this headline">¶</a></h3>
-<div class="attention admonition">
-<p class="admonition-title">Exercice</p>
-<p>Quelles sont parmi les expressions ci-dessous, celles qui sont homogènes ? Vous ne devez pas passer plus de deux minutes (plus tard, ce temps sera plus court) pour chaque expression :</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(UI^2 = RI^2\tau\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\frac{1}{2} m v^2 = mgz\)</span></p></li>
-</ul>
 </div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Correction<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<blockquote>
-<div><ul class="simple">
-<li><p class="card-text">Première relation : Nous sommes en électrocinétique. On peut remarquer que <span class="math notranslate nohighlight">\(UI\)</span> est une puissance, tout comme <span class="math notranslate nohighlight">\(RI^2\)</span>. Il reste une intensité à gauche et un temps à droite : ce n’est pas homogène.</p></li>
-<li><p class="card-text">Deuxième équation : On reconnaître des expressions venues de la mécanique. Il s’agit d’une égalisation de deux énergies (cinétique à gauche et potentielle à droite).</p></li>
-</ul>
-</div></blockquote>
-</div>
-</details></div>
 </div>
 <div class="section" id="analyse-dimensionnelle">
 <h2>Analyse dimensionnelle<a class="headerlink" href="#analyse-dimensionnelle" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="principe-general-de-l-analyse-dimensionnelle">
 <h3>Principe général de l’analyse dimensionnelle<a class="headerlink" href="#principe-general-de-l-analyse-dimensionnelle" title="Permalink to this headline">¶</a></h3>
+<div class="sidebar">
+<p class="sidebar-title">Remarque</p>
+<p>Comme on va le voir, une analyse dimensionnelle permet de connaître une formule à un facteur près car on peut toujours respecter l’homogénéité d’une expression en multipliant celle-ci par une constante sans dimension.</p>
+</div>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>__Fondamental : __
-Les unités fondamentales sont <strong>indépendantes</strong> et ne peuvent donc pas s’exprimer les unes en fonction des autres. Cela signifie que si l’on exprime chaque expressions d’une formules en fonction des unités fondamentales, <strong>les puissances de celles-ci doivent être égales.</strong> Cette propriété permet de déterminer une formule possible pour certaines problèmes.</p>
+<p>Les unités fondamentales sont <strong>indépendantes</strong> et ne peuvent donc pas s’exprimer les unes en fonction des autres. Cela signifie que si l’on exprime chaque expressions d’une formules en fonction des unités fondamentales, <strong>les puissances de celles-ci doivent être égales.</strong> Cette propriété permet de déterminer une formule possible pour <a class="reference internal" href="unites_meth.html#andim-meth"><span class="std std-ref">certains problèmes</span></a>.</p>
 </div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Remarque<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<p class="card-text">Comme on va le voir, une analyse dimensionnelle permet de connaître une formule à un facteur près car on peut toujours respecter l’homogénéité d’une expression en multipliant celle-ci par une constante sans dimension.</p>
 </div>
-</details></div>
-<div class="section" id="methode-analyse-dimensionnelle">
-<h3>Méthode : Analyse dimensionnelle<a class="headerlink" href="#methode-analyse-dimensionnelle" title="Permalink to this headline">¶</a></h3>
-<div class="attention admonition">
-<p class="admonition-title">Exercice</p>
-<p>Un électron de charge <span class="math notranslate nohighlight">\(e\)</span> qui subit une accelération <span class="math notranslate nohighlight">\(a\)</span> perd une puissance (on parle de freinage par rayonnement) <span class="math notranslate nohighlight">\(P\)</span>. L’étude de ce phénomène est relativiste et l’on sait que l’expression de <span class="math notranslate nohighlight">\(P\)</span> fait intervenir la célérité de la lumière dans le vide <span class="math notranslate nohighlight">\(c\)</span> et la perméabilité du vide <span class="math notranslate nohighlight">\(\epsilon_0\)</span> dont l’unité est <span class="math notranslate nohighlight">\(s^4.A^{2}.kg^{-1}.m^{-3}\)</span> sous forme de produit. On peut donc écrire <span class="math notranslate nohighlight">\(P\)</span> sous la forme :</p>
-<p><span class="math notranslate nohighlight">\(P = k e^{\alpha} c^{\beta} \epsilon_0^{\gamma} a^{\zeta}\)</span> avec k une constante sans dimension.</p>
-<p>Déterminer les exposants <span class="math notranslate nohighlight">\(\alpha, \beta, \gamma\)</span> et <span class="math notranslate nohighlight">\(\zeta\)</span>.</p>
-</div>
-<details class="sphinx-bs dropdown card mb-3">
-<summary class="summary-title card-header">
-Correction<div class="summary-down docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
-<div class="summary-up docutils">
-<svg version="1.1" width="24" height="24" class="octicon octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
-</summary><div class="summary-content card-body docutils">
-<blockquote>
-<div><p class="card-text">Comme on l’a dit, on ne peut exprimer une unité fondamentale en fonction d’une autre. Chaque grandeur d’une égalité doit donc avoir la même unité exprimer au moyen des unités fondamentales. Commençons par exprimer les unités de <span class="math notranslate nohighlight">\(P\)</span> et <span class="math notranslate nohighlight">\(k e^{\alpha} c^{\beta} \epsilon_0^{\gamma} a^{\zeta}\)</span>.</p>
-<p class="card-text">Le premier a pour unité <span class="math notranslate nohighlight">\(kg.m^2.s^{-3}\)</span></p>
-<p class="card-text">Le second a pour unité (on rappelle que le Coulomb s’exprime comme des <span class="math notranslate nohighlight">\(A.s\)</span>) <span class="math notranslate nohighlight">\({(A.s)}^{\alpha}.{(m.s^{-1})}^{\beta}.{(s^4.A^{2}.kg^{-1}.m^{-3})}^{\gamma}.{(m.s^{-2})}^{\zeta}\)</span> soi en réorganisant <span class="math notranslate nohighlight">\(A^{\alpha - 2 \gamma}.s^{\alpha - \beta - 2 \zeta}.m^{\beta + 3 \gamma + \zeta}.kg^{\gamma}\)</span>. En identifiant les puissances, il vient :</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{cases}
-\alpha + 2 \gamma &amp;= 0\\
-\alpha - \beta + 4 \gamma - 2 \zeta&amp;= -3\\
-\beta - 3 \gamma + \zeta &amp;= 2\\
--\gamma &amp;= 1\\
-\end{cases}
-\end{split}\]</div>
-<p class="card-text">On obtient un système d’équation qu’il faut résoudre. Il vient assez facilement :</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{cases}
-\gamma &amp;= -1 \\
-\alpha &amp;= 2 \\
-\zeta &amp;= 2 \\
-\beta &amp;= -3 \\
-\end{cases}
-\end{split}\]</div>
-<p class="card-text">Il vient la formule :</p>
-<div class="math notranslate nohighlight">
-\[P = k \frac{q^2 a^2}{\epsilon_0 c^3}\]</div>
-</div></blockquote>
-</div>
-</details></div>
 </div>
 </div>
 
@@ -533,16 +377,27 @@ Correction<div class="summary-down docutils">
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="../unites_odg.html" title="previous page">Unités et ordre de grandeur</a>
-    <a class='right-next' id="next-link" href="odg.html" title="next page">Ordres de grandeur en physique</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../unites_odg.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Unités et ordre de grandeur</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="odg.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Ordres de grandeur en physique</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
@@ -558,8 +413,7 @@ Correction<div class="summary-down docutils">
       </div>
     </div>
   
-  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

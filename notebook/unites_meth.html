@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ordres de grandeur en physique &#8212; Unités et ordre de grandeur</title>
+    <title>Exemples &#8212; Unités et ordre de grandeur</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,12 +51,11 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://pcsi3physiquestan.github.io/unites_odg/notebook/odg.html" />
+    <link rel="canonical" href="https://pcsi3physiquestan.github.io/unites_odg/notebook/unites_meth.html" />
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Exemples" href="unites_meth.html" />
-    <link rel="prev" title="Unités" href="unites.html" />
+    <link rel="prev" title="Ordres de grandeur en physique" href="odg.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -101,13 +100,13 @@
    Unités
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="odg.html">
    Ordres de grandeur en physique
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="unites_meth.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Exemples
   </a>
  </li>
@@ -151,11 +150,11 @@
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
         <a class="dropdown-buttons"
-            href="../_sources/notebook/odg.ipynb"><button type="button"
+            href="../_sources/notebook/unites_meth.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/notebook/odg.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/notebook/unites_meth.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -180,7 +179,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/odg.md"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebook/unites_meth.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -203,8 +202,18 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#constantes-fondamentales">
-   Constantes fondamentales
+  <a class="reference internal nav-link" href="#expression-des-unites-derivees">
+   Expression des unités dérivées.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#verification-rapide-de-l-homogeneite-des-expressions">
+   Vérification rapide de l’homogénéité des expressions.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analyse-dimensionnelle">
+   Analyse dimensionnelle
   </a>
  </li>
 </ul>
@@ -218,86 +227,106 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="ordres-de-grandeur-en-physique">
-<h1>Ordres de grandeur en physique<a class="headerlink" href="#ordres-de-grandeur-en-physique" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="exemples">
+<h1>Exemples<a class="headerlink" href="#exemples" title="Permalink to this headline">¶</a></h1>
+<p><em>Les corrections sont en ligne.</em></p>
+<div class="section" id="expression-des-unites-derivees">
+<h2>Expression des unités dérivées.<a class="headerlink" href="#expression-des-unites-derivees" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">A retenir</p>
+<p>On retiendra que la dérivée par rapport au temps revient, d’un point dimensionnelle à diviser par le temps. Plus généralement, dériver par rapport à une grandeur X d’unité U revient à diviser l’unité par U.</p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercice</p>
+<p>Exprimer l’unité Newton (N) en fonction des unités fondamentales</p>
+</div>
+<p><em>Pour répondre à cette question, il faut utiliser des relations physiques connues reliant une grandeur dont l’unité est celle étudiée aux unités fondamentales.</em></p>
 <div class="topic">
-<p class="topic-title first">Ordres de grandeurs et constantes</p>
-<p>Les ordres de grandeurs sont cruciaux en physique. Toute grandeur physique possède, dans un cadre théorique donné une gamme de valeur possible. Il est important d’avoir une idée des valeurs acceptables pour savoir si un résultat numérique qu’on a calculé n’est pas obligatoirement faux ou si un résultat numérique est en accord avec les hypothèses que l’on a faite.</p>
-<p>On peut distinguer deux types d’ordres deux grandeurs à connaître:</p>
+<p class="topic-title first">Correction</p>
+<blockquote>
+<div><p>Le Newton est l’unité utilisé pour l’intensité des forces. Le principe fondamental de la dynamique s’écrit:</p>
+<div class="math notranslate nohighlight">
+\[\frac{d \overrightarrow{p}}{dt} = \overrightarrow{F}\]</div>
+<p>avec <span class="math notranslate nohighlight">\(\overrightarrow{p} = m\overrightarrow{v}\)</span> la quantité de mouvement dont l’unité est donc des <span class="math notranslate nohighlight">\(kg.m.s^{-1}\)</span>.</p>
+<p>La dérivée par rapport au temps revient, d’un point dimensionnelle à diviser par le temps. Il vient comme unité <span class="math notranslate nohighlight">\(kg.m.s^{-2}\)</span></p>
+</div></blockquote>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercice</p>
+<p>Exprimer l’unité Joule (J) en fonction des unités fondamentales</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Correction</p>
+<p>On peut utiliser l’expression de l’énergie cinétique <span class="math notranslate nohighlight">\(E_c = \frac{1}{2} m v^2\)</span> il vient comme unité <span class="math notranslate nohighlight">\(kg.m^2.s^{-2}\)</span></p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercice</p>
+<p>Exprimer l’unité Coulomb (C) en fonction des unités fondamentales</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Correction</p>
+<p>Le Coulomb est l’unité de charge électrique. L’intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s’exprime comme <span class="math notranslate nohighlight">\(A.s^{-1}\)</span></p>
+</div>
+</div>
+<div class="section" id="verification-rapide-de-l-homogeneite-des-expressions">
+<h2>Vérification rapide de l’homogénéité des expressions.<a class="headerlink" href="#verification-rapide-de-l-homogeneite-des-expressions" title="Permalink to this headline">¶</a></h2>
+<div class="attention admonition">
+<p class="admonition-title">Exercice</p>
+<p>Quelles sont parmi les expressions ci-dessous, celles qui sont homogènes ? Vous ne devez pas passer plus de deux minutes (plus tard, ce temps sera plus court) pour chaque expression :</p>
 <ul class="simple">
-<li><p><strong>Les constantes fondamentales:</strong> elle sont souvent en relation avec les limites d’un cadre théorique (la vitesse de la lumière par exemple). Il est important de connaître au moins le premier chiffre et la puissance de dix (en écriture scientifique). Pour les plus courante, il est vivement conseillé de connaître aussi le second chiffre.</p></li>
-<li><p><strong>Les grandeurs courantes:</strong> connaître l’ordre de grandeur de la vitesse d’une voiture, de la vitesse de la Terre autour du Soleil…  ou au moins savoir les retrouver rapidement (comme la distance Terre-Soleil) est important pour pouvoir comparer un résultat numérique à ces ordres de grandeurs. Ici, la connaissance de la puissance de dix correspond suffit (ou d’un intervalle de puissance de dix).</p></li>
+<li><p><span class="math notranslate nohighlight">\(UI^2 = RI^2\tau\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\frac{1}{2} m v^2 = mgz\)</span></p></li>
 </ul>
 </div>
-<div class="section" id="constantes-fondamentales">
-<h2>Constantes fondamentales<a class="headerlink" href="#constantes-fondamentales" title="Permalink to this headline">¶</a></h2>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p><strong>Constantes fondamentales</strong></p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="text-align:left head"><p>Constante</p></th>
-<th class="text-align:right head"><p>Valeur</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-align:left"><p>Célérité de la lumière</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(299 792 458 \rm{m.s^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Célérité de la lumière</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(299 792 458 \rm{m.s^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Perméabilité magnétique du vide</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(4\pi \times 10^{-7} \rm{kg.m.A^{-2}.s^{-2}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Permittivité diélectrique du vide</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\frac{1}{\mu_0\cdot c^2} = 8,85 \times 10^{-12} \rm{A^2.s^4.kg^{-1}.m^{-3}}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Constante de Planck</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,63 \times 10^{-34} \rm{kg.m^2.s^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Charge élémentaire</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\sqrt{\frac{2h\alpha}{\mu_0 c}} = 1,60 \times 10^{-19} \rm{A.s}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Constante gravitationnelle</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,67 \times 10^{-11} \rm{m^3.kg^{-1}.s^{-2}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Unité de masse atomique</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,66 \times 10^{-27} \rm{kg}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Nombre d’Avogadro</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(6,02 \times 10^{23} \rm{mol^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Constante de Boltzmann</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\frac{R}{N_A}	1,38 \times 10^{-23} \rm{J.K^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Température du point triple de l’eau</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(273,16 \rm{K}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Pression standard de l’atmosphère</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(101 325 \rm{Pa}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Constante des gaz parfaits</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(8,314 \rm{J.K^{-1}.mol^{-1}}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Rayon de Bohr</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(\frac{h}{2 \pi m_\mathrm{e} c \alpha} = 5,29 \times 10^{-11} \rm{m}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Magnéton de Bohr</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(9,27 \times 10^{-24} \rm{A.m^2}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Masse du proton</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,67 \times 10^{-27} \rm{kg}\)</span></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:left"><p>Masse du neutron</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(1,67 \times 10^{-27} \rm{kg}\)</span></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:left"><p>Masse de l’électron</p></td>
-<td class="text-align:right"><p><span class="math notranslate nohighlight">\(9,11 \times 10^{-31} \rm{kg}\)</span></p></td>
-</tr>
-</tbody>
-</table>
+<p><em>Une telle vérification doit être <strong>rapide</strong>. Elle serviara à la relecture après un calcul.</em></p>
+<div class="topic">
+<p class="topic-title first">Correction</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Première relation : Nous sommes en électrocinétique. On peut remarquer que <span class="math notranslate nohighlight">\(UI\)</span> est une puissance, tout comme <span class="math notranslate nohighlight">\(RI^2\)</span>. Il reste une intensité à gauche et un temps à droite : ce n’est pas homogène.</p></li>
+<li><p>Deuxième équation : On reconnaître des expressions venues de la mécanique. Il s’agit d’une égalisation de deux énergies (cinétique à gauche et potentielle à droite).</p></li>
+</ul>
+</div></blockquote>
 </div>
+</div>
+<div class="section" id="analyse-dimensionnelle">
+<span id="andim-meth"></span><h2>Analyse dimensionnelle<a class="headerlink" href="#analyse-dimensionnelle" title="Permalink to this headline">¶</a></h2>
+<div class="attention admonition">
+<p class="admonition-title">Exercice</p>
+<p>Un électron de charge <span class="math notranslate nohighlight">\(e\)</span> qui subit une accelération <span class="math notranslate nohighlight">\(a\)</span> perd une puissance (on parle de freinage par rayonnement) <span class="math notranslate nohighlight">\(P\)</span>. L’étude de ce phénomène est relativiste et l’on sait que l’expression de <span class="math notranslate nohighlight">\(P\)</span> fait intervenir la célérité de la lumière dans le vide <span class="math notranslate nohighlight">\(c\)</span> et la perméabilité du vide <span class="math notranslate nohighlight">\(\epsilon_0\)</span> dont l’unité est <span class="math notranslate nohighlight">\(s^4.A^{2}.kg^{-1}.m^{-3}\)</span> sous forme de produit. On peut donc écrire <span class="math notranslate nohighlight">\(P\)</span> sous la forme :</p>
+<p><span class="math notranslate nohighlight">\(P = k e^{\alpha} c^{\beta} \epsilon_0^{\gamma} a^{\zeta}\)</span> avec k une constante sans dimension.</p>
+<p>Déterminer les exposants <span class="math notranslate nohighlight">\(\alpha, \beta, \gamma\)</span> et <span class="math notranslate nohighlight">\(\zeta\)</span>.</p>
+</div>
+<div class="topic">
+<p class="topic-title first">Correction</p>
+<blockquote>
+<div><p>Comme on l’a dit, on ne peut exprimer une unité fondamentale en fonction d’une autre. Chaque grandeur d’une égalité doit donc avoir la même unité exprimer au moyen des unités fondamentales. Commençons par exprimer les unités de <span class="math notranslate nohighlight">\(P\)</span> et <span class="math notranslate nohighlight">\(k e^{\alpha} c^{\beta} \epsilon_0^{\gamma} a^{\zeta}\)</span>.</p>
+<p>Le premier a pour unité <span class="math notranslate nohighlight">\(kg.m^2.s^{-3}\)</span></p>
+<p>Le second a pour unité (on rappelle que le Coulomb s’exprime comme des <span class="math notranslate nohighlight">\(A.s\)</span>) <span class="math notranslate nohighlight">\({(A.s)}^{\alpha}.{(m.s^{-1})}^{\beta}.{(s^4.A^{2}.kg^{-1}.m^{-3})}^{\gamma}.{(m.s^{-2})}^{\zeta}\)</span> soi en réorganisant <span class="math notranslate nohighlight">\(A^{\alpha - 2 \gamma}.s^{\alpha - \beta - 2 \zeta}.m^{\beta + 3 \gamma + \zeta}.kg^{\gamma}\)</span>. En identifiant les puissances, il vient :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{cases}
+\alpha + 2 \gamma &amp;= 0\\
+\alpha - \beta + 4 \gamma - 2 \zeta&amp;= -3\\
+\beta - 3 \gamma + \zeta &amp;= 2\\
+-\gamma &amp;= 1\\
+\end{cases}
+\end{split}\]</div>
+<p>On obtient un système d’équation qu’il faut résoudre. Il vient assez facilement :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{cases}
+\gamma &amp;= -1 \\
+\alpha &amp;= 2 \\
+\zeta &amp;= 2 \\
+\beta &amp;= -3 \\
+\end{cases}
+\end{split}\]</div>
+<p>Il vient la formule :</p>
+<div class="math notranslate nohighlight">
+\[P = k \frac{q^2 a^2}{\epsilon_0 c^3}\]</div>
+</div></blockquote>
+</div>
+<p><strong>Quelques exercices d’applications sont disponibles <a class="reference external" href="https://stanislas.edunao.com/mod/quiz/view.php?id=12808">en ligne</a>. Il est vivement conseillé de les traiter.</strong></p>
 </div>
 </div>
 
@@ -326,19 +355,12 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="unites.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="odg.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Unités</p>
+            <p class="prev-next-title">Ordres de grandeur en physique</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="unites_meth.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Exemples</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
         

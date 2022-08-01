@@ -16,16 +16,18 @@ kernelspec:
 
 # Ordres de grandeur en physique
 
+````{topic} Ordres de grandeurs et constantes
 Les ordres de grandeurs sont cruciaux en physique. Toute grandeur physique possède, dans un cadre théorique donné une gamme de valeur possible. Il est important d'avoir une idée des valeurs acceptables pour savoir si un résultat numérique qu'on a calculé n'est pas obligatoirement faux ou si un résultat numérique est en accord avec les hypothèses que l'on a faite.
 
 On peut distinguer deux types d'ordres deux grandeurs à connaître:
 
 * __Les constantes fondamentales:__ elle sont souvent en relation avec les limites d'un cadre théorique (la vitesse de la lumière par exemple). Il est important de connaître au moins le premier chiffre et la puissance de dix (en écriture scientifique). Pour les plus courante, il est vivement conseillé de connaître aussi le second chiffre.
 * __Les grandeurs courantes:__ connaître l'ordre de grandeur de la vitesse d'une voiture, de la vitesse de la Terre autour du Soleil...  ou au moins savoir les retrouver rapidement (comme la distance Terre-Soleil) est important pour pouvoir comparer un résultat numérique à ces ordres de grandeurs. Ici, la connaissance de la puissance de dix correspond suffit (ou d'un intervalle de puissance de dix).
+````
 
 ## Constantes fondamentales
 
-````{important} __Définition : Constantes fondamentales__
+````{important} __Constantes fondamentales__
 | Constante | Valeur |
 | :-|-:|
 | Célérité de la lumière | $299 792 458 \rm{m.s^{-1}}$ |
