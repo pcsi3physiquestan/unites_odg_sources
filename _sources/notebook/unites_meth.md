@@ -63,7 +63,7 @@ Quelles sont parmi les expressions ci-dessous, celles qui sont homogènes ? Vous
 * $UI^2 = RI^2\tau$
 * $\frac{1}{2} m v^2 = mgz$
 ````
-_Une telle vérification doit être __rapide__. Elle serviara à la relecture après un calcul._
+_Une telle vérification doit être __rapide__. Elle servira à la relecture après un calcul._
 
 ````{topic} Correction
 > * Première relation : Nous sommes en électrocinétique. On peut remarquer que $UI$ est une puissance, tout comme $RI^2$. Il reste une intensité à gauche et un temps à droite : ce n'est pas homogène.
