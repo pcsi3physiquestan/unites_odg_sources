@@ -51,7 +51,7 @@ Exprimer l'unité Coulomb (C) en fonction des unités fondamentales
 ````
 
 ````{topic} Correction
-Le Coulomb est l'unité de charge électrique. L'intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s'exprime comme $A.s^{-1}$
+Le Coulomb est l'unité de charge électrique. L'intensité électrique est définie comme la quantité de charge passant une surface par unité de temps, donc le Coulomb s'exprime comme $A.s$
 ````
 
 ## Vérification rapide de l'homogénéité des expressions.
@@ -114,4 +114,4 @@ $$
 >$$P = k \frac{q^2 a^2}{\epsilon_0 c^3}$$
 ````
 
-__Quelques exercices d'applications sont disponibles [en ligne](https://stanislas.edunao.com/mod/quiz/view.php?id=12808). Il est vivement conseillé de les traiter.__
+__Quelques exercices d'applications sont disponibles [en ligne](https://moodlecpge.stanislas.fr/mod/quiz/view.php?id=132). Il est vivement conseillé de les traiter.__
